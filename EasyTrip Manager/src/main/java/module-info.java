@@ -11,6 +11,5 @@ module com.example.easytripmanager {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.easytripmanager to javafx.fxml;
-    exports com.example.easytripmanager;
+
 }
