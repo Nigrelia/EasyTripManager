@@ -1,0 +1,65 @@
+.custom-alert {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+}
+
+.custom-alert > *.button-bar > *.container {
+    -fx-background-color: white;
+}
+
+.custom-alert:header *.header-panel {
+    -fx-background-color: white;
+}
+
+.custom-alert *.label.content {
+    -fx-font-size: 14px;
+    -fx-padding: 20px 10px 20px 10px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-family: "Arial";
+}
+
+.custom-alert .button {
+    -fx-background-color: #ef9918;
+    -fx-text-fill: white;
+    -fx-wrap-text: true;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 3, 0, 0, 1);
+}
+
+.custom-alert .button:hover {
+    -fx-background-color: #f6a42e;
+}
+
+.custom-alert .button:pressed {
+    -fx-background-color: #e68c10;
+}
+
+.success-icon {
+    -fx-font-size: 40px;
+    -fx-text-fill: #2ecc71;
+    -fx-font-weight: bold;
+}
+
+/* Style the dialog background */
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-border-color: #ef9918;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 3);
+}
+
+/* Style the header area */
+.dialog-pane:header .header-panel {
+    -fx-background-color: white;
+    -fx-padding: 10px;
+}
+
+/* Style the content area */
+.dialog-pane > .content {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}

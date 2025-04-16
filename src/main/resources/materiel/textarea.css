@@ -1,0 +1,15 @@
+.text-area {
+    -fx-background-color: #fff3e0; /* light orange */
+    -fx-border-color: #ff9800;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-text-fill: #4e342e;
+    -fx-highlight-fill: #ffe0b2;
+    -fx-highlight-text-fill: black;
+    -fx-focus-color: #ff9800;
+    -fx-faint-focus-color: transparent;
+}

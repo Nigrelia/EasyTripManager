@@ -1,0 +1,32 @@
+.button {
+    -fx-background-color: #ef9918;
+    -fx-background-radius: 11px;
+    -fx-padding: 20 45 20 45;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Ubuntu";
+    -fx-font-weight: bold;
+    -fx-font-size: 26px;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+
+    /* Smooth animation */
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 8, 0, 0, 3);
+}
+
+/* Hover effect */
+.button:hover {
+    -fx-background-color: #f6a42e;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 12, 0.3, 0, 5);
+}
+
+/* Pressed (clicked) effect */
+.button:pressed {
+    -fx-background-color: #e68c10;
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+}
